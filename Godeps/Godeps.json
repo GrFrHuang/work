@@ -1,0 +1,143 @@
+{
+	"ImportPath": "kuaifa.com/kuaifa/work-together",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/cache",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/config",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/context",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/grace",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/logs",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/orm",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/session",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/toolbox",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/utils",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/astaxie/beego/validation",
+			"Comment": "v1.7.1-2-gb635af5",
+			"Rev": "b635af5a8cd798ae9ede1adb6f9472fa87361168"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/bjson",
+			"Rev": "c1ce2363850148f6132f1c2cedf23eb491620c10"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/bygo/log",
+			"Rev": "65673d82ee5c3e611a0b02f4a228a6b25c0ed497"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/bygo/util",
+			"Rev": "65673d82ee5c3e611a0b02f4a228a6b25c0ed497"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/bygo/util/encoder",
+			"Rev": "65673d82ee5c3e611a0b02f4a228a6b25c0ed497"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/bygo/util/http_util",
+			"Rev": "65673d82ee5c3e611a0b02f4a228a6b25c0ed497"
+		},
+		{
+			"ImportPath": "github.com/bysir-zl/fasthttp-routing",
+			"Rev": "6ccdc2a18d8712f842de50ddcb8c9a3d025ddc71"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.2-198-g0b58b37",
+			"Rev": "0b58b37b664c21f3010e836f1b931e1d0b0b0685"
+		},
+		{
+			"ImportPath": "github.com/kataras/go-errors",
+			"Rev": "0f977b82cc78d5d31bb75fb6f903ad9e852c8bbd"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/flate",
+			"Comment": "v1.2",
+			"Rev": "e3b7981a12dd3cab49afa1d3a50e715846f23732"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/gzip",
+			"Comment": "v1.2",
+			"Rev": "e3b7981a12dd3cab49afa1d3a50e715846f23732"
+		},
+		{
+			"ImportPath": "github.com/klauspost/compress/zlib",
+			"Comment": "v1.2",
+			"Rev": "e3b7981a12dd3cab49afa1d3a50e715846f23732"
+		},
+		{
+			"ImportPath": "github.com/klauspost/cpuid",
+			"Comment": "v1.0",
+			"Rev": "09cded8978dc9e80714c4d85b0322337b0a1e5e0"
+		},
+		{
+			"ImportPath": "github.com/klauspost/crc32",
+			"Comment": "v1.1",
+			"Rev": "cb6bfca970f6908083f26f39a79009d608efd5cd"
+		},
+		{
+			"ImportPath": "github.com/tealeg/xlsx",
+			"Rev": "e0f3d7d6cf84b282edb711bc6a23e8dbbd331a13"
+		},
+		{
+			"ImportPath": "github.com/valyala/bytebufferpool",
+			"Rev": "e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7"
+		},
+		{
+			"ImportPath": "github.com/valyala/fasthttp",
+			"Comment": "v20160617-77-g1913bde",
+			"Rev": "1913bdea45d5d9515c6b9433683bfc8950402389"
+		},
+		{
+			"ImportPath": "github.com/valyala/fasthttp/fasthttputil",
+			"Comment": "v20160617-77-g1913bde",
+			"Rev": "1913bdea45d5d9515c6b9433683bfc8950402389"
+		},
+		{
+			"ImportPath": "github.com/valyala/fasthttp/stackless",
+			"Comment": "v20160617-77-g1913bde",
+			"Rev": "1913bdea45d5d9515c6b9433683bfc8950402389"
+		}
+	]
+}

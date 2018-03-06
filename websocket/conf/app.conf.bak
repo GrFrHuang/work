@@ -1,0 +1,35 @@
+appname = work-together
+httpport = 8085
+runmode = dev
+autorender = false
+copyrequestbody = true
+EnableDocs = true
+assets_save_path = assetFiles
+cps_url = "http://test.cps.shouyouquan
+
+[dev]
+mysqluser = "kftest"
+mysqlpass = "123456"
+mysqlurls = "10.8.230.17"
+mysqlport = "3308"
+mysqldb   = "work_together"
+
+redis_host   = "127.0.0.1:6379"
+
+face_auth_host   = "work.kuaifazs.com/face_auth"
+
+
+
+[prod]
+mysqluser = "kftest"
+mysqlpass = "123456"
+mysqlurls = "10.8.230.17"
+mysqlport = "3308"
+mysqldb   = "work_together"
+
+redis_host   = "10.8.230.17:6379"
+
+face_auth_host   = "work.kuaifazs.com/face_auth"
+
+
+#bee generate appcode -tables="workflow_name" -driver=mysql -conn="kftest:123456@tcp(10.8.230.17:3308)/work_together" -level=1
